@@ -227,5 +227,4 @@ def AI():
 
 if __name__ == '__main__':
     # Initialisation du morpion
-    #AI()
     Jeu()
