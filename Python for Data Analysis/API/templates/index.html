@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Will you buy ?</title>
+    </head>
+    <body>
+        <h1>Hi and Welcome</h1>
+        <h2>You are here to find out if, according to your data, you will spend your money or not</h2>
+        <p>Please respect the entries</p>
+        <form action="http://localhost:5000/resultat" method="get">
+                <label>Last Name</label> : <input type="text" name="nom" required/>
+                <label>First Name</label> : <input type="text" name="prenom" required/><br><br>
+
+                <label>Administrative (between 0 and 30)</label> : <input type="number" name="a" step="0.01" required/><br>
+                <label>Administrative_Duration (between 0 and 4000)</label> : <input type="number" name="ad" step="0.01" required/><br>
+                <label>Informational (between 0 and 25)</label> : <input type="number" name="i" step="0.01" required/><br>
+                <label>Informational_Duration (between 0 and 3000)</label> : <input type="number" name="iD" step="0.01" required/><br>
+                <label>ProductRelated (between 0 and 700)</label> : <input type="number" name="pr" step="0.01" required/><br>
+                <label>ProductRelated_Duration (between 0 and 65000)</label> : <input type="number" name="prd" step="0.01" required/><br>
+                <label>BounceRates (between 0 and 0.2)</label> : <input type="number" name="br" step="0.01" required/><br>
+                <label>ExitRates (between 0 and 0.2)</label> : <input type="number" name="er" step="0.01" required/><br>
+                <label>PageValues (between 0 and 400)</label> : <input type="number" name="pv" step="0.01" required/><br>
+                <label>SpecialDay (0/1)</label> : <input type="number" name="sd" required/><br>
+                <label>OperatingSystems (between 1 and 8)</label> : <input type="number" name="os" step="0.01" required/><br>
+                <label>Browser (between 1 and 13)</label> : <input type="number" name="b" step="0.01" required/><br>
+                <label>Region (between 1 and 9)</label> : <input type="number" name="r" step="0.01" required/><br>
+                <label>TrafficType (between 1 and 20)</label> : <input type="number" name="tt" step="0.01" required/><br>
+                <label>VisitorType (Returning_Visitor/New_Visitor/Other)</label> : <input type="text" name="vt" required/><br>
+                <label>Weekend (True/False)</label> : <input type="text" name="w" required/><br>
+                <label>Month (3 first letters with capital letter for the first ; ex : Jan,Feb...)</label> : <input type="text" name="m" required/><br><br>
+                <input type="submit" value="Envoyer" />
+        </form>
+    </body>
+</html>
+   
