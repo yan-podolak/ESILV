@@ -49,6 +49,7 @@ After using 5 different models, I arrived to the conclusion that the best model 
 
 ## API
 
+The API was created using Flask
 To use the API : 
 * git clone https://github.com/yan-podolak/ESILV/tree/main/Python%20for%20Data%20Analysis/API
 * python app.py
